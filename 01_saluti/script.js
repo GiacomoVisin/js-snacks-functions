@@ -3,11 +3,29 @@
 const userName = 'Mario';
 
 
+
 // Dichiara la funzione qui.
+
+
+    // function declaration
+function sayHello (){             // function declaration
+   return `ciao ${userName}` 
+}
+
+ const sayHello2 = (name) => {       // function arrow
+     return `ciao ${userName}` 
+}      
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
 
+console.log(sayHello());
+console.log(sayHello2());
+
+
+
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+// Ciao Mario
