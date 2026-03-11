@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
-function newArray() {
+function newArray(arr) {                  // function declaration
     const newNames = []
 
     for (let i = 0; i < names.length; i++){
@@ -13,6 +13,19 @@ function newArray() {
     }
     return newNames
 }
+
+
+const newArray = (arr) => {
+     const newNames = []                        // function arrow
+
+    for (let i = 0; i < names.length; i++){
+        newNames.push(names[i][0])
+    }
+    return newNames
+}
+
+
+
 
 // Invoca la funzione qui e stampa il risultato in console
 newArray(names)
