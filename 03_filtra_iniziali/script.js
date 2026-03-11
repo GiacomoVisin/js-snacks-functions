@@ -18,7 +18,7 @@ function firstChar (array,character){
 
 
 const firstChar2 = (array2,character) => {
-    const firstCharacterNames = []
+    const firstCharacterNames = []                                  //arrow function
     for (let i=0; i < array2.length; i++){
         if (array2[i][0].toUpperCase() === character.toUpperCase()){
             firstCharacterNames.push(array2[i])
